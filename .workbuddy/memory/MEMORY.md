@@ -4,6 +4,9 @@
 
 - **Write memory notes in English.** All workspace memory files (daily logs and this file) are kept
   in English, regardless of the language used in conversation. (Requested by the user on 2026-09-10.)
+- Docs are written in English too (README rewritten to English on 2026-09-10).
+- README comes in two files: `README.md` (English, default) and `README.zh-CN.md` (Chinese), each
+  linking to the other at the top. Keep both in sync when content changes.
 - Code comments in this project are in English.
 - Site copy lives in the `I18N` dictionary in `assets/js/main.js`; the static content in
   `index.html` mirrors `I18N.en`. Any change to one must be mirrored in the other.
